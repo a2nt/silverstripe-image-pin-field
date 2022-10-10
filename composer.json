@@ -1,5 +1,5 @@
 {
-    "name": "a2nt/imagehotspot",
+    "name": "a2nt/silverstripe-image-pin-field",
     "type": "silverstripe-vendormodule",
     "description": "Add hotspot to image field for SilverStripe",
     "keywords": [
@@ -23,7 +23,7 @@
     },
     "extra": {
         "expose": [
-            "client"
+            "client/dist"
         ],
         "branch-alias": {
             "dev-master": "3.x-dev"
