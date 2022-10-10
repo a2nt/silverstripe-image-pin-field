@@ -16,8 +16,8 @@ class ImageHotspotField extends FieldGroup
             return parent::__construct($title);
         }
 
-        Requirements::css('image-pin/client/dist/css/app.css');
-        Requirements::javascript('image-pin/client/dist/js/app.js');
+        Requirements::css('a2nt/silverstripe-image-pin-field:client/dist/css/app.css');
+        Requirements::javascript('a2nt/silverstripe-image-pin-field:client/dist/js/app.js');
 
         $fields = [
             LiteralField::create(
