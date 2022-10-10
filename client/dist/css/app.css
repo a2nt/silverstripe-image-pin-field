@@ -1,0 +1,33 @@
+.field--image-hotspot .pin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--red);
+  border: 1px solid var(--white);
+}
+
+.field--image-hotspot .pin::after {
+  content: "";
+  position: absolute;
+  height: 4rem;
+  border-left: 1px dashed var(--red);
+  top: -1.85rem;
+  left: 0.125rem;
+}
+
+.field--image-hotspot .pin::before {
+  content: "";
+  position: absolute;
+  width: 4rem;
+  border-top: 1px dashed var(--red);
+  left: -1.85rem;
+  top: 0.125rem;
+}
+
+.field--image-hotspot img {
+  max-width: 100%;
+  /* usefull for transparent images */
+  background: var(--gray-dark);
+}

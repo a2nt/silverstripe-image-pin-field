@@ -1,0 +1,39 @@
+{
+    "name": "a2nt/imagehotspot",
+    "type": "silverstripe-vendormodule",
+    "description": "Add hotspot to image field for SilverStripe",
+    "keywords": [
+        "silverstripe",
+        "image"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tony Air",
+            "homepage": "https://twma.pro"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "silverstripe/vendor-plugin": "^1.0",
+        "silverstripe/asset-admin": "^1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "extra": {
+        "expose": [
+            "client"
+        ],
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "A2nt\\ImageHotspot\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

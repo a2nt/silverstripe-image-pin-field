@@ -1,0 +1,5 @@
+---
+Name: imagehotspot
+After:
+  - 'assetsimage'
+---
